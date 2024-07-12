@@ -1,0 +1,104 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "allowClear": false,
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 7,
+  "boxShadow": "none",
+  "defaultOptionValue": "BLUE",
+  "displayName": "TreeSelect",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onDropdownOpen"
+    },
+    {
+      "key": "onOptionChange"
+    }
+  ],
+  "expandAll": false,
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.cacc1e6ede0643cd41f8cb09ef2a9dbd.svg",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "vwffiq5gr1",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "Label",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 27,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 7,
+  "mobileLeftColumn": 29,
+  "mobileRightColumn": 49,
+  "mobileTopRow": 0,
+  "needsErrorInfo": false,
+  "onCanvasUI": {
+    "disableParentSelection": false,
+    "focusBGCSSVar": "--on-canvas-ui-widget-focus",
+    "focusColorCSSVar": "--on-canvas-ui-widget-selection",
+    "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
+    "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
+  },
+  "onDropdownOpen": "{{showAlert('TreeSelect1 open', '');}}",
+  "onOptionChange": "{{showAlert('TreeSelect option changed to ' + TreeSelect1.selectedOptionLabel, '');}}",
+  "options": [
+    {
+      "children": [
+        {
+          "label": "Dark Blue",
+          "value": "DARK BLUE"
+        },
+        {
+          "label": "Light Blue",
+          "value": "LIGHT BLUE"
+        }
+      ],
+      "label": "Blue",
+      "value": "BLUE"
+    },
+    {
+      "label": "Green",
+      "value": "GREEN"
+    },
+    {
+      "label": "Red",
+      "value": "RED"
+    }
+  ],
+  "parentColumnSpace": 11.578125,
+  "parentId": "k9gmokjoor",
+  "parentRowSpace": 10,
+  "placeholderText": "Select option",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 47,
+  "searchTags": [
+    "dropdown",
+    "singleselecttree"
+  ],
+  "tags": [
+    "Select"
+  ],
+  "thumbnailSVG": "/static/media/thumbnail.bc59917a102b6adb6de852484370cc41.svg",
+  "topRow": 0,
+  "type": "SINGLE_SELECT_TREE_WIDGET",
+  "version": 1,
+  "widgetId": "80r38jadbr",
+  "widgetName": "TreeSelect1"
+}

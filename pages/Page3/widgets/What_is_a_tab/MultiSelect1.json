@@ -1,0 +1,92 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "1.5rem",
+  "bottomRow": 25,
+  "boxShadow": "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
+  "defaultOptionValue": [
+    "GREEN",
+    "RED"
+  ],
+  "displayName": "MultiSelect",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicTriggerPathList": [
+    {
+      "key": "onOptionChange"
+    }
+  ],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.4a4d6bd163e2ef0f2abf68c4ab5b7706.svg",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isFilterable": true,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "uxqe5uacam",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelStyle": "",
+  "labelText": "Multiselect",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 27,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 16,
+  "mobileLeftColumn": 31,
+  "mobileRightColumn": 51,
+  "mobileTopRow": 9,
+  "needsErrorInfo": false,
+  "onCanvasUI": {
+    "disableParentSelection": false,
+    "focusBGCSSVar": "--on-canvas-ui-widget-focus",
+    "focusColorCSSVar": "--on-canvas-ui-widget-selection",
+    "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
+    "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
+  },
+  "onOptionChange": "{{showAlert('MiltiSelect options changed to ' + MultiSelect1.selectedOptionLabels, '');}}",
+  "optionLabel": "name",
+  "optionValue": "code",
+  "parentColumnSpace": 11.578125,
+  "parentId": "k9gmokjoor",
+  "parentRowSpace": 10,
+  "placeholderText": "Select option(s)",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 47,
+  "searchTags": [
+    "dropdown",
+    "tags"
+  ],
+  "serverSideFiltering": false,
+  "sourceData": [
+    {
+      "code": "BLUE",
+      "name": "Blue"
+    },
+    {
+      "code": "GREEN",
+      "name": "Green"
+    },
+    {
+      "code": "RED",
+      "name": "Red"
+    }
+  ],
+  "tags": [
+    "Select"
+  ],
+  "thumbnailSVG": "/static/media/thumbnail.9770668f6ae1bf4d3b439b1d90948e94.svg",
+  "topRow": 18,
+  "type": "MULTI_SELECT_WIDGET_V2",
+  "version": 1,
+  "widgetId": "eimq5jwigd",
+  "widgetName": "MultiSelect1"
+}

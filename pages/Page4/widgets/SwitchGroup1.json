@@ -1,0 +1,70 @@
+{
+  "accentColor": "#86efac",
+  "alignment": "left",
+  "animateLoading": true,
+  "bottomRow": 43,
+  "defaultSelectedValues": "[\n  \"RED\"\n]",
+  "displayName": "Switch Group",
+  "dynamicBindingPathList": [
+    {
+      "key": "options"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicTriggerPathList": [
+    {
+      "key": "onSelectionChange"
+    }
+  ],
+  "flexVerticalAlignment": "start",
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.8f0179c1d72f93abcfc8b07e982d01ef.svg",
+  "isCanvas": false,
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isInline": false,
+  "isLoading": false,
+  "isRequired": true,
+  "isVisible": true,
+  "key": "e61adfr9yd",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelStyle": "BOLD",
+  "labelText": "Label",
+  "labelTextColor": "#ed07e6",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 36,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "mobileBottomRow": 22,
+  "mobileLeftColumn": 16,
+  "mobileRightColumn": 42,
+  "mobileTopRow": 16,
+  "needsErrorInfo": false,
+  "onCanvasUI": {
+    "disableParentSelection": false,
+    "focusBGCSSVar": "--on-canvas-ui-widget-focus",
+    "focusColorCSSVar": "--on-canvas-ui-widget-selection",
+    "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
+    "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
+  },
+  "onSelectionChange": "{{showAlert('SwitchGroup changed to ' + SwitchGroup1.selectedValues, '');}}",
+  "options": "{{ Query1.data.map((row) => {\n      return { label: row.id, value: row.dob }\n   })\n}}",
+  "originalBottomRow": 23,
+  "originalTopRow": 12,
+  "parentColumnSpace": 11.890625,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 62,
+  "tags": [
+    "Toggles"
+  ],
+  "thumbnailSVG": "/static/media/thumbnail.a24508dfef3d45bdae750aa0d2e016c9.svg",
+  "topRow": 12,
+  "type": "SWITCH_GROUP_WIDGET",
+  "version": 1,
+  "widgetId": "9d45vxb9w3",
+  "widgetName": "SwitchGroup1"
+}

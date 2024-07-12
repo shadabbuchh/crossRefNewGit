@@ -1,0 +1,46 @@
+{
+  "appIsExample": false,
+  "applicationDetail": {
+    "appPositioning": {
+      "type": "FIXED"
+    },
+    "navigationSetting": {}
+  },
+  "applicationVersion": 2,
+  "collapseInvisibleWidgets": true,
+  "color": "#C7F3E3",
+  "evaluationVersion": 2,
+  "icon": "love",
+  "pages": [
+    {
+      "id": "Page1",
+      "isDefault": true
+    },
+    {
+      "id": "Page2",
+      "isDefault": false
+    },
+    {
+      "id": "Page3",
+      "isDefault": false
+    },
+    {
+      "id": "Page4",
+      "isDefault": false
+    },
+    {
+      "id": "Page5",
+      "isDefault": false
+    },
+    {
+      "id": "Page6",
+      "isDefault": false
+    }
+  ],
+  "unpublishedApplicationDetail": {
+    "appPositioning": {
+      "type": "FIXED"
+    },
+    "navigationSetting": {}
+  }
+}

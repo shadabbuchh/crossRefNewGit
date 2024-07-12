@@ -1,0 +1,87 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "bottomRow": 73,
+  "defaultValue": "20",
+  "displayName": "Number Slider",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    }
+  ],
+  "dynamicPropertyPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onChange"
+    }
+  ],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.092bf708b751ae564558222a15e3f34c.svg",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "offm1zlsyv",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "Percentage",
+  "labelTextSize": "0.875rem",
+  "labelTooltip": "This is a tooltip",
+  "labelWidth": 8,
+  "leftColumn": 11,
+  "marks": [
+    {
+      "label": "25%",
+      "value": 25
+    },
+    {
+      "label": "50%",
+      "value": 50
+    },
+    {
+      "label": "75%",
+      "value": 75
+    }
+  ],
+  "max": 100,
+  "min": 0,
+  "mobileBottomRow": 72,
+  "mobileLeftColumn": 11,
+  "mobileRightColumn": 51,
+  "mobileTopRow": 64,
+  "needsErrorInfo": false,
+  "onCanvasUI": {
+    "disableParentSelection": false,
+    "focusBGCSSVar": "--on-canvas-ui-widget-focus",
+    "focusColorCSSVar": "--on-canvas-ui-widget-selection",
+    "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
+    "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
+  },
+  "onChange": "{{showAlert('Number Slider changed to ' + NumberSlider1.value + ' %', '');}}",
+  "originalBottomRow": 73,
+  "originalTopRow": 65,
+  "parentColumnSpace": 11.890625,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 51,
+  "searchTags": [
+    "range"
+  ],
+  "shouldScroll": false,
+  "shouldTruncate": false,
+  "showMarksLabel": true,
+  "sliderSize": "m",
+  "step": "2",
+  "tags": [
+    "Sliders"
+  ],
+  "thumbnailSVG": "/static/media/thumbnail.493d650547eaef7533c2c9deda058338.svg",
+  "tooltipAlwaysOn": false,
+  "topRow": 65,
+  "type": "NUMBER_SLIDER_WIDGET",
+  "version": 1,
+  "widgetId": "kha212scvw",
+  "widgetName": "NumberSlider1"
+}
